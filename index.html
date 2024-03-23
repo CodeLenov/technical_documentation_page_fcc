@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="./styles.css" />
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Technical Documentation Page</title>
+</head>
+
+<body>
+
+<main id="main-doc">
+
+	<nav id="navbar">
+		<header><strong>FullStack Developing</strong></header>
+		<ul>
+			<li><a class="nav-link" href="#HTML">HTML</a></li>
+			<li><a class="nav-link" href="#CSS">CSS</a></li>
+			<li><a class="nav-link" href="#JavaScript">JavaScript</a></li>
+			<li><a class="nav-link" href="#SQL">SQL</a></li>
+			<li><a class="nav-link" href="#Python">Python</a></li>
+		</ul>
+	</nav>
+
+	<section id="HTML" class="main-section">
+
+		<header><h1>HTML</h1></header>
+		<p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</p>
+		<p>Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for its appearance.</p>
+		<p>
+			<code>
+				<h1>Hello, World!</h1>
+				<p>This is Paragraph.</p>
+			</code>
+		</p>
+		<p>
+			<ul>
+			<caption>What is HTML?</caption>
+				<li>HTML stands for Hyper Text Markup Language.</li>
+				<li>HTML is the standard makup language for creating Web pages.</li>
+				<li>HTML describes the structure of a Web page.</li>
+				<li>HTML consists of a series of elements.</li>
+				<li>HTML elements tell the browser how to display the content.</li>
+				<li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+			</ul>
+		</p>
+	</section>
+
+	<section id="CSS" class="main-section">
+		<header><h1>CSS</h1></header>
+		<p>Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+		<p>CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts. This separation can improve content accessibility;[further explanation needed] provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.</p>
+		<p>
+			<code>
+				p {</br>
+					color: red;<br/>
+					background-color: black;</br>
+				}
+			</code>
+		</p>
+	</section>
+
+	<section id="JavaScript" class="main-section">
+		<header><h1>JavaScript</h1></header>
+		<p>JavaScript (/ˈdʒɑːvəskrɪpt/), often abbreviated as JS, is a programming language and core technology of the World Wide Web, alongside HTML and CSS. As of 2023, 98.7% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.</p>
+    	<p>JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM).</p>
+		<p>
+			<code>
+				alert ( 'Hello, World!' );
+			</code>
+		</p> 
+	</section>
+
+	<section id="SQL" class="main-section">
+		<header><h1>SQL</h1></header>
+		<p>Structured Query Language (SQL) (/ˌɛsˌkjuːˈɛl/ S-Q-L, sometimes /ˈsiːkwəl/ "sequel" for historical reasons) is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS), or for stream processing in a relational data stream management system (RDSMS). It is particularly useful in handling structured data, i.e., data incorporating relations among entities and variables.</p>
+		<p>Introduced in the 1970s, SQL offered two main advantages over older read–write APIs such as ISAM or VSAM. Firstly, it introduced the concept of accessing many records with one single command. Secondly, it eliminates the need to specify how to reach a record, i.e., with or without an index.</p>
+		<p>
+			<code>
+				CREATE TABLE helloworld (phrase TEXT);</br>
+				INSERT INTO helloworld VALUES ("Hello, World!");</br>
+				INSERT INTO helloworld VALUES ("Goodbye, World!");</br>
+				SELECT COUNT(*) FROM helloworld;</br>
+				</br>
+				SELECT * FROM helloworld WHERE phrase = "Hello, World!";
+			</code>
+		</p>
+	</section>
+
+	<section id="Python" class="main-section">
+		<header><h1>Python</h1></header>
+		<p>Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.</p>
+		<p>Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. It is often described as a "batteries included" language due to its comprehensive standard library.</p>
+		<p>
+			<code>
+				print("Hello, World!")
+			</code>
+		</p>
+	</section>
+
+</main>
+
+</body>
+</html>

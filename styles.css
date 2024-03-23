@@ -1,0 +1,12 @@
+@media(min-width: 700px) {
+	#navbar {
+		position: fixed;
+	} 
+	section {
+		margin-left: 10rem;
+	}
+}
+
+nav > ul > li {
+	list-style-type: none;
+}
